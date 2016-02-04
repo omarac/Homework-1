@@ -14,6 +14,11 @@
 		D34D3C6B1C63531600EF1CB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D34D3C691C63531600EF1CB9 /* LaunchScreen.storyboard */; };
 		D34D3C761C63531600EF1CB9 /* Homework_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34D3C751C63531600EF1CB9 /* Homework_1Tests.swift */; };
 		D34D3C811C63531600EF1CB9 /* Homework_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34D3C801C63531600EF1CB9 /* Homework_1UITests.swift */; };
+		D34D3C8F1C636AFE00EF1CB9 /* sample-986-ghost@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D34D3C8E1C636AFE00EF1CB9 /* sample-986-ghost@2x.png */; };
+		D34D3C911C636B2500EF1CB9 /* sample-886-ice-cream-cone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D34D3C901C636B2500EF1CB9 /* sample-886-ice-cream-cone@2x.png */; };
+		D34D3C971C63809800EF1CB9 /* blackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34D3C961C63809800EF1CB9 /* blackController.swift */; };
+		D34D3C9F1C638B6400EF1CB9 /* tabBarColour.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34D3C9E1C638B6400EF1CB9 /* tabBarColour.swift */; };
+		D34D3CA11C638B9100EF1CB9 /* tabBarColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34D3CA01C638B9100EF1CB9 /* tabBarColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		D34D3C7C1C63531600EF1CB9 /* Homework 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homework 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D34D3C801C63531600EF1CB9 /* Homework_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_1UITests.swift; sourceTree = "<group>"; };
 		D34D3C821C63531600EF1CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D34D3C8E1C636AFE00EF1CB9 /* sample-986-ghost@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sample-986-ghost@2x.png"; sourceTree = "<group>"; };
+		D34D3C901C636B2500EF1CB9 /* sample-886-ice-cream-cone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sample-886-ice-cream-cone@2x.png"; sourceTree = "<group>"; };
+		D34D3C961C63809800EF1CB9 /* blackController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = blackController.swift; sourceTree = "<group>"; };
+		D34D3C9E1C638B6400EF1CB9 /* tabBarColour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tabBarColour.swift; path = ../tabBarColour.swift; sourceTree = "<group>"; };
+		D34D3CA01C638B9100EF1CB9 /* tabBarColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tabBarColor.swift; path = ../tabBarColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +107,14 @@
 		D34D3C5F1C63531600EF1CB9 /* Homework 1 */ = {
 			isa = PBXGroup;
 			children = (
+				D34D3C641C63531600EF1CB9 /* Main.storyboard */,
+				D34D3C9E1C638B6400EF1CB9 /* tabBarColour.swift */,
+				D34D3CA01C638B9100EF1CB9 /* tabBarColor.swift */,
 				D34D3C601C63531600EF1CB9 /* AppDelegate.swift */,
 				D34D3C621C63531600EF1CB9 /* ViewController.swift */,
-				D34D3C641C63531600EF1CB9 /* Main.storyboard */,
+				D34D3C901C636B2500EF1CB9 /* sample-886-ice-cream-cone@2x.png */,
+				D34D3C8E1C636AFE00EF1CB9 /* sample-986-ghost@2x.png */,
+				D34D3C961C63809800EF1CB9 /* blackController.swift */,
 				D34D3C671C63531600EF1CB9 /* Assets.xcassets */,
 				D34D3C691C63531600EF1CB9 /* LaunchScreen.storyboard */,
 				D34D3C6C1C63531600EF1CB9 /* Info.plist */,
@@ -229,7 +244,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D34D3C8F1C636AFE00EF1CB9 /* sample-986-ghost@2x.png in Resources */,
 				D34D3C6B1C63531600EF1CB9 /* LaunchScreen.storyboard in Resources */,
+				D34D3C911C636B2500EF1CB9 /* sample-886-ice-cream-cone@2x.png in Resources */,
 				D34D3C681C63531600EF1CB9 /* Assets.xcassets in Resources */,
 				D34D3C661C63531600EF1CB9 /* Main.storyboard in Resources */,
 			);
@@ -257,7 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D34D3C631C63531600EF1CB9 /* ViewController.swift in Sources */,
+				D34D3C9F1C638B6400EF1CB9 /* tabBarColour.swift in Sources */,
+				D34D3C971C63809800EF1CB9 /* blackController.swift in Sources */,
 				D34D3C611C63531600EF1CB9 /* AppDelegate.swift in Sources */,
+				D34D3CA11C638B9100EF1CB9 /* tabBarColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

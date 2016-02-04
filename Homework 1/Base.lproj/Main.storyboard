@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="W2Z-VI-AYK">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Cyan-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Homework_1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,227 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ur-ad-eCH">
+                                <rect key="frame" x="272.5" y="285" width="55" height="30"/>
+                                <color key="backgroundColor" red="0.65841911480553605" green="1" blue="0.97635473494237812" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="Lby-Bs-Vkg"/>
+                                </constraints>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="Yellow">
+                                    <color key="titleShadowColor" white="0.74979096240010756" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="qAg-Hk-pbZ" kind="show" id="oPW-oI-H0f"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="4Ur-ad-eCH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Niy-Tc-zzl"/>
+                            <constraint firstItem="4Ur-ad-eCH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jfy-Se-GfN"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Cyan" id="1Bl-SG-TCM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-187" y="709"/>
+        </scene>
+        <!--Magenta-->
+        <scene sceneID="Pu5-gu-dM7">
+            <objects>
+                <viewController id="kJV-So-JaE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eDW-dm-Vom"/>
+                        <viewControllerLayoutGuide type="bottom" id="nWh-h9-9ck"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aeC-CP-Adt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jem-Om-4Xh">
+                                <rect key="frame" x="273" y="285" width="55" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.35827093671736709" blue="0.99972869007049536" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="hJw-Bh-cJk"/>
+                                </constraints>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="Black">
+                                    <color key="titleShadowColor" red="0.69411764705882351" green="0.69411764705882351" blue="0.69411764705882351" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="jPR-ZA-CNb" kind="show" id="WMr-jg-LJm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="jem-Om-4Xh" firstAttribute="centerY" secondItem="aeC-CP-Adt" secondAttribute="centerY" id="iFF-MA-2AS"/>
+                            <constraint firstItem="jem-Om-4Xh" firstAttribute="centerX" secondItem="aeC-CP-Adt" secondAttribute="centerX" id="kle-gh-W2O"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Magenta" id="NB9-5w-lrs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qbb-Tz-Wjb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1614" y="701"/>
+        </scene>
+        <!--I Change-->
+        <scene sceneID="nlP-U7-js3">
+            <objects>
+                <viewController title="I Change" id="jPR-ZA-CNb" customClass="blackController" customModule="Homework_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HvJ-2v-C0t"/>
+                        <viewControllerLayoutGuide type="bottom" id="vex-Wv-36a"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GUy-c4-hBq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJq-gp-Mkr">
+                                <rect key="frame" x="258" y="285" width="85" height="30"/>
+                                <color key="backgroundColor" red="0.18972922120418845" green="0.18972922120418845" blue="0.18972922120418845" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="85" id="JCi-cg-Xma">
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="keyPath">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </constraint>
+                                </constraints>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="Change Me">
+                                    <color key="titleShadowColor" red="0.69411764710000001" green="0.69411764710000001" blue="0.69411764710000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="colorChangeButton:" destination="jPR-ZA-CNb" eventType="touchUpInside" id="I3y-Wa-AAx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="VJq-gp-Mkr" firstAttribute="centerY" secondItem="GUy-c4-hBq" secondAttribute="centerY" id="4Iu-lY-3s2"/>
+                            <constraint firstItem="VJq-gp-Mkr" firstAttribute="centerX" secondItem="GUy-c4-hBq" secondAttribute="centerX" id="kYc-Vz-UrV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="az5-ME-kAn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1614" y="1424"/>
+        </scene>
+        <!--Yellow-->
+        <scene sceneID="5YY-Nf-gid">
+            <objects>
+                <viewController title="Yellow" id="qAg-Hk-pbZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Dku-R2-JsK"/>
+                        <viewControllerLayoutGuide type="bottom" id="zxJ-qd-kzd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Va9-67-khz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Hello World..." translatesAutoresizingMaskIntoConstraints="NO" id="hco-on-nJb">
+                                <rect key="frame" x="244.5" y="285.5" width="111" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="111" id="Zya-Bx-cDs"/>
+                                    <constraint firstAttribute="height" constant="29" id="msh-6N-ehg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <accessibility key="accessibilityConfiguration" label="Yellow"/>
+                        <constraints>
+                            <constraint firstItem="hco-on-nJb" firstAttribute="centerX" secondItem="Va9-67-khz" secondAttribute="centerX" id="SuF-6F-VFc"/>
+                            <constraint firstItem="hco-on-nJb" firstAttribute="centerY" secondItem="Va9-67-khz" secondAttribute="centerY" id="a40-qL-jp8"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fZv-zV-ZcQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-187" y="1424"/>
+        </scene>
+        <!--Color-->
+        <scene sceneID="MEc-RE-k0B">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="b7E-xE-Jef" customClass="tabBarColor" customModule="Homework_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Color" image="sample-986-ghost.png" badgeValue="New" id="Hqj-Ub-evU"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Wdy-ge-xcW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <outlet property="colorTab" destination="Hqj-Ub-evU" id="icA-Jn-Vu1"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="jk9-9k-Oih"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Mc-h2-L6g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-187" y="-127"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="TTt-RJ-4qd">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="W2Z-VI-AYK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Ze8-c0-SLB">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="b7E-xE-Jef" kind="relationship" relationship="viewControllers" id="rEl-S5-Amc"/>
+                        <segue destination="PdD-Yp-Mw1" kind="relationship" relationship="viewControllers" id="O3c-Wi-1h1"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XMz-ya-zBC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="685" y="-951"/>
+        </scene>
+        <!--Colour-->
+        <scene sceneID="XVP-L8-Twy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PdD-Yp-Mw1" customClass="tabBarColour" customModule="Homework_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Colour" image="sample-886-ice-cream-cone.png" badgeValue="New" id="wfQ-Db-lVb"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Gc8-nc-2Tk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <outlet property="colourTab" destination="wfQ-Db-lVb" id="cDx-Z8-pE1"/>
+                        <segue destination="kJV-So-JaE" kind="relationship" relationship="rootViewController" id="Sbn-1D-YZR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oid-VS-yyo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1614" y="-127"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="sample-886-ice-cream-cone.png" width="20" height="28"/>
+        <image name="sample-986-ghost.png" width="24" height="28"/>
+    </resources>
 </document>
